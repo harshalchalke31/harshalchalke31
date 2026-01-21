@@ -1,27 +1,101 @@
 <h1>Hi 👋, I'm Harshal Chalke</h1>
 <b><p>AI Engineer | M.S. in Artificial Intelligence (RIT '25)</p></b>
 
-<p>I love designing intelligent systems that blend Deep Learning, GenAI workflows, and Agentic AI. My focus is on making AI accessible, explainable, and powerful—whether that's building multimodal agents, developing medical imaging pipelines, or experimenting with LLMs. I thrive on tough datasets, creative problem-solving, and staying at the frontier of AI research.</p>
+<p>Full Stack Software Engineer witha  major in Artificial Intelligence. I have full stack projects in healtcare, social media and travel industries and would love to contribute more. I have deep technical language of LLMs which includes, but not limited to fine-tuning, prompt engineer, vectore embedding, vector store and agentic AI pipelines. I have two research projects in my name: Echoframe and Brain tumor segmentation, and recieved an award for the former - Best Social Impact Poster. I specialize in MERN stack which essentially places me into full stack development with backend focus.</p>
 
-<h2>🚀 Languages and Tools I Use</h2>
-<p>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="42" height="42" /></a>
-  <a target="_blank" href="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"><img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="42" height="42" /></a>
-  <a target="_blank" href="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="42" height="42" /></a>
-  <a target="_blank" href="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="42" height="42" /></a>
-  <a target="_blank" href="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="42" height="42" /></a>
-  <a target="_blank" href="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="42" height="42" /></a>
-  <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="42" height="42" /></a>
-  <a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a>
-</p>
+<h2>Languages and Tools I Use</h2>
+<table>
+  <tr>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="42" height="42" />
+      <br/>Python
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="42" height="42" />
+      <br/>JavaScript
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="42" height="42" />
+      <br/>React
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="42" height="42" />
+      <br/>FastAPI
+    </td>
+  </tr>
 
-<h2>⚡️ Let's Connect</h2>
+  <tr>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="42" height="42" />
+      <br/>Node.js
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="42" height="42" />
+      <br/>Express
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="42" height="42" />
+      <br/>PostgreSQL
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="42" height="42" />
+      <br/>MySQL
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="42" height="42" />
+      <br/>SQL Server
+    </td>
+    <td align="center" width="160">
+      <img src="https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg" width="42" height="42" />
+      <br/>BigQuery
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="42" height="42" />
+      <br/>HTML
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="42" height="42" />
+      <br/>CSS
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="160">
+      <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="42" height="42" />
+      <br/>PyTorch
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="42" height="42" />
+      <br/>Docker
+    </td>
+    <td align="center" width="160">
+      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="42" height="42" />
+      <br/>Google Cloud
+    </td>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="42" height="42" />
+      <br/>AWS
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="160">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="42" height="42" />
+      <br/>Azure
+    </td>
+    <td align="center" width="160">&nbsp;</td>
+    <td align="center" width="160">&nbsp;</td>
+    <td align="center" width="160">&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+<h2>Let's Connect</h2>
 <p>
   <a target="_blank" href="https://www.linkedin.com/in/harshalchalke31/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
   <a target="_blank" href="https://medium.com/@harshalchalke31"><img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium" alt="Medium" /></a>
