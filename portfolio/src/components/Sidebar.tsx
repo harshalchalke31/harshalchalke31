@@ -1,18 +1,18 @@
 import { Menu } from "lucide-react"
 import { useState } from "react"
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "./sheet"
-import { Button } from "./button"
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "./ui/sheet"
+import { Button } from "./ui/button"
 import { navLinks, socialLinks } from "@/constants"
 import { cn } from "@/lib/utils"
 
 export const Sidebar = () => {
-    const [active, setActive] = useState('#hero')
+    const [active, setActive] = useState('/')
     return (
         <div>
             <Sheet>
                 <SheetTrigger asChild>
                     <Button variant={'ghost'} size={'icon'}
-                        className="m-4 fixed top-4 right-4 z-50 border-2 hover:border-primary
+                        className="m-4 fixed top-0 right-4 z-50 border-2 hover:border-primary
                     bg-neutral-800 py-5 px-5 rounded-full hover:text-primary cursor-pointer">
                         <Menu size={30} />
                     </Button>
@@ -27,12 +27,14 @@ export const Sidebar = () => {
                             const Icon = link.icon
 
                             return (
-                                <a href={link.link} key={link.label} onClick={() => setActive(link.link)}
+                                <a href={link.link} key={link.label}
+                                    target='_blank' rel='noopener noreferrer'
+                                    onClick={() => setActive(link.link)}
                                     className={cn('text-neutral-300 flex items-center gap-2 hover:text-primary transition-colors duration-200 text-base',
                                         active === link.link && 'text-primary',
 
                                     )}>
-                                    <Icon className='size-4' /> {link.label}
+                                    <Icon className='size-5' /> {link.label}
                                 </a>
                             )
                         })}
@@ -44,9 +46,9 @@ export const Sidebar = () => {
                                 const Icon = social.icon
                                 return (
                                     <a href={social.link} key={index}
-                                    className="hover:text-primary border-2 border-neutral-500 p-2
+                                        className="hover:text-primary border-2 border-neutral-500 p-2
                                     rounded-full hover:border-primary transition duration-200">
-                                        <Icon className='size-5'/>
+                                        <Icon className='size-5' />
                                     </a>
                                 )
                             })}

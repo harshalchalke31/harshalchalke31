@@ -5,9 +5,6 @@ import type {
   ExperienceType,
   LinksType,
   ProjectType,
-  ServiceType,
-  StatsType,
-  TestimonialsType,
   ToolsType,
 } from '@/types';
 
@@ -16,237 +13,158 @@ import type {
  */
 import {
   Briefcase,
-  Facebook,
   FileText,
-  Globe,
   Home,
-  Instagram,
-  Layers,
   Mail,
   MessageCircle,
-  Palette,
-  Rocket,
   Settings,
-  Smartphone,
-  Twitter,
   User,
-  Youtube,
 } from 'lucide-react';
+import { DiJavascript } from 'react-icons/di';
+import { FaGithub, FaLinkedin, FaMedium, FaNodeJs, FaPython, FaReact } from 'react-icons/fa';
+import { FaX } from 'react-icons/fa6';
+import { FiFigma } from 'react-icons/fi';
+import { RiTailwindCssFill } from 'react-icons/ri';
+import { SiExpress, SiGmail, SiMongodb, SiPytorch } from 'react-icons/si';
+
 
 const navLinks: LinksType[] = [
-  { label: 'Home', link: '#hero', icon: Home },
+  { label: 'Home', link: '/', icon: Home },
   {
-    label: 'Projects',
-    link: '#projects',
+    label: 'projects',
+    link: '/projects',
     icon: Briefcase,
   },
-  { label: 'About', link: '#about', icon: User },
+  { label: 'About', link: '/about', icon: User },
   {
     label: 'Services',
-    link: '#services',
+    link: '/services',
     icon: Settings,
   },
-  { label: 'Resume', link: '#resume', icon: FileText },
+  { label: 'Resume', link: '/resume', icon: FileText },
   {
     label: 'Reviews',
-    link: '#testimonials',
+    link: '/testimonials',
     icon: MessageCircle,
   },
-  { label: 'Contact', link: '#contact', icon: Mail },
+  { label: 'Contact', link: '/contact', icon: Mail },
 ];
 
 const socialLinks: LinksType[] = [
   {
-    icon: ,
-    label: 'Facebook',
-    link: '/#',
+    icon: FaLinkedin,
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/harshalchalke31/',
   },
   {
-    icon: Instagram,
-    label: 'Instagram',
-    link: '/#',
+    icon: FaGithub,
+    label: 'Github',
+    link: 'https://github.com/harshalchalke31',
   },
   {
-    icon: Twitter,
-    label: 'Twitter',
-    link: '/#',
+    icon: FaX,
+    label: 'X.com',
+    link: 'https://x.com/harshalchalke08',
   },
   {
-    icon: Youtube,
-    label: 'Youtube',
-    link: '/#',
+    icon: FaMedium,
+    label: 'Medium',
+    link: 'https://medium.com/@harshalchalke31',
+  },
+  {
+    icon: SiGmail,
+    label: 'Gmail',
+    link: 'mailto:harshal.chalke2001@gmail.com',
   },
 ];
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
+    imgSrc: '/project.jpeg',
+    title: 'Full Healthcare System',
     tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
   },
   {
-    imgSrc: '/images/project-ph-2.jpeg',
+    imgSrc: '/project.jpeg',
     title: 'Full stack music app',
     tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
   },
   {
-    imgSrc: '/images/project-ph-3.jpeg',
+    imgSrc: '/project.jpeg',
     title: 'Full stack music app',
     tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
   },
   {
-    imgSrc: '/images/project-ph-4.jpeg',
+    imgSrc: '/project.jpeg',
     title: 'Full stack music app',
     tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
   },
 ];
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
-    desc: 'Focused on front-end development, UI design, and web application architecture.',
+    year: 'August 2023 – May 2025',
+    title: 'Master of Science in Artificial Intelligence',
+    institute: 'Rochester Institute of Technology',
+    desc: 'Focused on Machine Learning, Natural Language Processing, Visual Analytics, Ethics of AI, Mathematical Methods for AI, and ML for Difficult Data. Graduated with 3.60 GPA.',
   },
   {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
-    institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
-  {
-    year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+    year: 'August 2019 – May 2023',
+    title: 'Bachelor of Technology in Information Technology',
+    institute: 'NMIMS University',
+    desc: 'Built strong foundations in software engineering, data structures, databases, and full stack development. Graduated with 3.47 GPA.',
   },
 ];
 
 const experience: ExperienceType[] = [
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
-  },
-  {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+    year: 'June 2025 – Present',
+    title: 'AI Engineer',
+    institute: 'Cardio AI',
+    desc: 'Developing deep learning models for echocardiogram and ECG analysis using PyTorch. Converting models to ONNX and deploying scalable inference endpoints on GCP Vertex AI. Building FastAPI backend modules for agentic clinical decision support workflows.',
   },
 ];
 
 const tools: ToolsType[] = [
   {
-    label: 'Figma',
-    imgSrc: '/images/tools/figma.svg',
+    label: 'Python',
+    imgSrc: FaPython,
   },
-  {
-    label: 'CSS',
-    imgSrc: '/images/tools/css3.svg',
-  },
-  {
-    label: 'Tailwind CSS',
-    imgSrc: '/images/tools/tailwindcss.svg',
-  },
-  {
-    label: 'React',
-    imgSrc: '/images/tools/react.svg',
+    {
+    label: 'PyTorch',
+    imgSrc: SiPytorch,
   },
   {
     label: 'JavaScript',
-    imgSrc: '/images/tools/javascript.svg',
+    imgSrc: DiJavascript,
   },
   {
+    label: 'Tailwind CSS',
+    imgSrc: RiTailwindCssFill,
+  },
+  {
+    label: 'React',
+    imgSrc: FaReact,
+  },
+
+  {
     label: 'Node.js',
-    imgSrc: '/images/tools/nodejs.svg',
+    imgSrc: FaNodeJs,
   },
   {
     label: 'Express.js',
-    imgSrc: '/images/tools/expressjs.svg',
+    imgSrc: SiExpress,
   },
   {
     label: 'Mongodb',
-    imgSrc: '/images/tools/mongodb.svg',
+    imgSrc: SiMongodb,
   },
 ];
 
-const services: ServiceType[] = [
-  {
-    title: 'Brand Identity',
-    desc: 'I craft modern visual identities that help brands stand out through strong typography, colors, and minimal design.',
-    projects: '32 Projects',
-    icon: <Palette className='h-6 w-6 text-green-400' />,
-  },
-  {
-    title: 'UI/UX Design',
-    desc: 'Designing clean, intuitive, and user-friendly interfaces that improve user experience and boost conversions.',
-    projects: '47 Projects',
-    icon: <Layers className='h-6 w-6 text-green-400' />,
-  },
-  {
-    title: 'Web Development',
-    desc: 'Building high-performance, SEO-friendly websites using Next.js, Tailwind, and modern web technologies.',
-    projects: '58 Projects',
-    icon: <Globe className='h-6 w-6 text-green-400' />,
-  },
-  {
-    title: 'Mobile App Design',
-    desc: 'Creating pixel-perfect app interfaces optimized for both iOS and Android devices with smooth usability.',
-    projects: '21 Projects',
-    icon: <Smartphone className='h-6 w-6 text-green-400' />,
-  },
-  {
-    title: 'Product Launch Strategy',
-    desc: 'Helping startups prepare their digital products for launch with design systems, marketing pages, and assets.',
-    projects: '15 Projects',
-    icon: <Rocket className='h-6 w-6 text-green-400' />,
-  },
-];
-
-const statsData: StatsType[] = [
-  {
-    number: '30+',
-    label: 'Happy Clients',
-  },
-  {
-    number: '05+',
-    label: 'Years Of Experience',
-  },
-  {
-    number: '50+',
-    label: 'Projects Done',
-  },
-];
-
-const testimonials: TestimonialsType[] = [
-  {
-    name: 'Alex Tomato',
-    role: 'Brand Manager at Instant Design',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
-    text: 'Working with David was an absolute pleasure. His attention to detail, creative insights, and ability to translate complex ideas into stunning visuals truly set him apart. He consistently went above and beyond to ensure the project exceeded expectations.',
-    link: '#',
-  },
-  {
-    name: 'Sara Bloom',
-    role: 'Founder at Bloom Agency',
-    image: 'https://randomuser.me/api/portraits/women/65.jpg',
-    text: 'David brought my brand vision to life better than I could have imagined. He is not only professional and highly skilled but also incredibly responsive and collaborative. Every aspect of the project was handled with precision and creativity.',
-    link: '#',
-  },
-  {
-    name: 'John Park',
-    role: 'CEO at PixelFlow',
-    image: 'https://randomuser.me/api/portraits/men/45.jpg',
-    text: 'From UI/UX design to front-end implementation, David handled every detail flawlessly. His problem-solving skills, innovative approach, and dedication made the entire process smooth and enjoyable. I would highly recommend him for any design-driven project.',
-    link: '#',
-  },
-];
 
 export {
   socialLinks,
@@ -254,8 +172,5 @@ export {
   education,
   experience,
   tools,
-  services,
   navLinks,
-  statsData,
-  testimonials,
 };
