@@ -1,13 +1,12 @@
-import React from 'react'
 import { motion } from "motion/react"
 import { fadeUp, staggerContainer } from '@/lib/animations'
-import { Download, MessageCircle, SparkleIcon } from 'lucide-react'
+import { Download, SparkleIcon } from 'lucide-react'
 import { Button } from './ui/button'
 
 function Hero() {
     return (
         <motion.section initial='hidden' whileInView='visible'
-            viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0)} className='pt-10' id='hero'>
+            viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0)} className='pt-10 scroll-mt-20' id='hero'>
             <motion.p variants={fadeUp} className='flex items-center justify-center py-1 gap-2 border
                 border-neutral-600 rounded-lg w-32'>
                 <SparkleIcon size={15} /> <span>Introduction</span>

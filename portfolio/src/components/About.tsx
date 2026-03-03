@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "motion/react"
 import { User } from 'lucide-react'
 import { fadeUp, staggerContainer } from '@/lib/animations'

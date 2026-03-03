@@ -13,41 +13,34 @@ import type {
  */
 import {
   Briefcase,
-  FileText,
+  Contact2Icon,
   Home,
-  Mail,
-  MessageCircle,
-  Settings,
-  User,
+  SchoolIcon,
+  Toolbox,
 } from 'lucide-react';
+import { CgWorkAlt } from 'react-icons/cg';
 import { DiJavascript } from 'react-icons/di';
 import { FaGithub, FaLinkedin, FaMedium, FaNodeJs, FaPython, FaReact } from 'react-icons/fa';
 import { FaX } from 'react-icons/fa6';
-import { FiFigma } from 'react-icons/fi';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiExpress, SiGmail, SiMongodb, SiPytorch } from 'react-icons/si';
 
 
 const navLinks: LinksType[] = [
-  { label: 'Home', link: '/', icon: Home },
+  { label: 'Home', link: '#hero', icon: Home },
+  { label: 'Education', link: '#education', icon: SchoolIcon },
   {
-    label: 'projects',
-    link: '/projects',
+    label: 'Experience',
+    link: '#experience',
+    icon: CgWorkAlt,
+  },
+  { label: 'Skills', link: '#skills', icon: Toolbox },
+  {
+    label: 'Projects',
+    link: '#projects',
     icon: Briefcase,
   },
-  { label: 'About', link: '/about', icon: User },
-  {
-    label: 'Services',
-    link: '/services',
-    icon: Settings,
-  },
-  { label: 'Resume', link: '/resume', icon: FileText },
-  {
-    label: 'Reviews',
-    link: '/testimonials',
-    icon: MessageCircle,
-  },
-  { label: 'Contact', link: '/contact', icon: Mail },
+  { label: 'Contact', link: '#contact', icon: Contact2Icon },
 ];
 
 const socialLinks: LinksType[] = [

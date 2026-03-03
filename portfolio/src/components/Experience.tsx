@@ -8,7 +8,7 @@ const Experience = () => {
     return (
         <motion.section initial='hidden' whileInView='visible'
             viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0)}
-            className='-mt-5 scroll-mt-10' id='experience'>
+            className='-mt-5 scroll-mt-20' id='experience'>
             <motion.p variants={fadeUp} className='flex items-center justify-center py-1 gap-2 border
                 border-neutral-600 rounded-lg w-32'>
                 <CgWorkAlt size={15} />Experience<span></span>

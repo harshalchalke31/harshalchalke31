@@ -8,7 +8,7 @@ const Skills = () => {
   return (
         <motion.section initial='hidden' whileInView='visible'
             viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0)}
-            className='-mt-25 scroll-mt-10' id='skills'>
+            className='-mt-25 scroll-mt-20' id='skills'>
             <motion.p variants={fadeUp} className='flex items-center justify-center py-1 gap-2 border
                 border-neutral-600 rounded-lg w-32'>
                 <Toolbox size={15} />Skills<span></span>

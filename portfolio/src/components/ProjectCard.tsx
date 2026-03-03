@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "motion/react"
 import type { ProjectType } from '@/types'
 import { fadeUp } from '@/lib/animations'

@@ -28,7 +28,6 @@ export const Sidebar = () => {
 
                             return (
                                 <a href={link.link} key={link.label}
-                                    target='_blank' rel='noopener noreferrer'
                                     onClick={() => setActive(link.link)}
                                     className={cn('text-neutral-300 flex items-center gap-2 hover:text-primary transition-colors duration-200 text-base',
                                         active === link.link && 'text-primary',
@@ -46,6 +45,7 @@ export const Sidebar = () => {
                                 const Icon = social.icon
                                 return (
                                     <a href={social.link} key={index}
+                                        target='_blank' rel='noopener noreferrer'
                                         className="hover:text-primary border-2 border-neutral-500 p-2
                                     rounded-full hover:border-primary transition duration-200">
                                         <Icon className='size-5' />

@@ -31,7 +31,7 @@ const Contact = () => {
     return (
         <motion.section initial='hidden' whileInView='visible'
             viewport={{ once: true, amount: 0.3 }} variants={staggerContainer(0)}
-            className='mt-10 scroll-mt-10' id='contact'>
+            className='mt-10 scroll-mt-20' id='contact'>
             <motion.p variants={fadeUp} className='flex items-center justify-center py-1 gap-2 border
                 border-neutral-600 rounded-lg w-32'>
                 <Contact2Icon size={15} />Contact<span></span>
