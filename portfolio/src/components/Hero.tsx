@@ -24,7 +24,7 @@ function Hero() {
                 <Button className='w-40'
                     onClick={() => document.querySelector('#projects')?.scrollIntoView()}>
                         <Briefcase className="size-4 mr-2"/>My Projects</Button>
-                <a className="w-40" href="/harshal_chalke_resume.pdf" download>
+                <a className="w-40" href={`${import.meta.env.BASE_URL}/harshal_chalke_resume.pdf`} download>
                     <Button className='w-full'><Download className='mr-2 size-4' />Resume</Button>
                 </a>
 

@@ -33,7 +33,7 @@ function Profile() {
                     })}
                 </div>
                 <div className='flex gap-3 mt-3'>
-                    <a href='/harshal_chalke_resume.pdf' download className='flex-1'>
+                    <a href={`${import.meta.env.BASE_URL}/harshal_chalke_resume.pdf`} download className='flex-1'>
                         <Button className='w-full'><Download className='mr-2 size-4' />Resume</Button>
                     </a>
                     <Button className='flex-1'
