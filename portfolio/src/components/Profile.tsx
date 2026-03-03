@@ -11,7 +11,7 @@ function Profile() {
                     <h1 className='text-3xl font-bold'>Harshal N. Chalke</h1>
                     <p className='text-sm text-neutral-400'>Software Engineer</p>
                 </div>
-                <img src='/square_profile.JPG' className='lg:w-40 lg:h-40 mx-auto rounded-full object-cover' />
+                <img src={`${import.meta.env.BASE_URL}/square_profile.JPG`} className='lg:w-40 lg:h-40 mx-auto rounded-full object-cover' />
 
                 <div className='mt-6'>
                     <p className='text-sm text-neutral-400'>Specialization:</p>
