@@ -17,3 +17,9 @@ npx shadcn@latest add button
 npx shadcn@latest add input
 npx shadcn@latest add field
 npx shadcn@latest add label sheet textarea
+
+## React icons
+npm install react-icons
+
+## Install motion
+npm install motion

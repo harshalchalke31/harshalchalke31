@@ -11,6 +11,7 @@ export type ExperienceType = {
   title: string;
   institute: string;
   desc: string;
+  courses: string[];
 };
 
 

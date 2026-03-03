@@ -19,6 +19,15 @@ const ResumeCard = ({ item }: Props) => {
         <span className='font-medium text-foreground'>{item.institute}</span>
       </p>
       <p className='text-sm text-neutral-400'>{item.desc}</p>
+      <div className='mt-3 flex flex-wrap gap-2'>
+        {item.courses.map((course, index) => (
+          <span key={index} className='border border-neutral-600
+          text-neutral-300 rounded-xl px-3 py-1 text-xs'>
+            {course}
+          </span>
+        ))}
+
+      </div>
     </div>
   )
 }

@@ -24,7 +24,7 @@ function Profile() {
                         const Icon = social.icon
                         return (
                             <a href={social.link} key={index}
-                            target='_blank' rel='noopener noreferrer'
+                                target='_blank' rel='noopener noreferrer'
                                 className="hover:text-primary border-2 border-neutral-500 p-2
                                     rounded-full hover:border-primary transition duration-200">
                                 <Icon className='size-5' />
@@ -33,8 +33,12 @@ function Profile() {
                     })}
                 </div>
                 <div className='flex gap-3 mt-3'>
-                    <Button className='flex-1'><Download className='mr-2 size-4' />Resume</Button>
-                    <Button className='flex-1'><MessageCircle className='mr-2 size-4' />Message</Button>
+                    <a href='/harshal_chalke_resume.pdf' download className='flex-1'>
+                        <Button className='w-full'><Download className='mr-2 size-4' />Resume</Button>
+                    </a>
+                    <Button className='flex-1'
+                        onClick={() => document.querySelector('#contact')?.scrollIntoView()}>
+                        <MessageCircle className='mr-2 size-4' />Message</Button>
                 </div>
 
             </div>

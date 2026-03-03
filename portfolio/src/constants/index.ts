@@ -104,12 +104,14 @@ const education: ExperienceType[] = [
     title: 'Master of Science in Artificial Intelligence',
     institute: 'Rochester Institute of Technology',
     desc: 'Focused on Machine Learning, Natural Language Processing, Visual Analytics, Ethics of AI, Mathematical Methods for AI, and ML for Difficult Data. Graduated with 3.60 GPA.',
+    courses: ['Mathematics', 'Machine Learning', 'Difficult Data', 'Robustness in ML', 'Ethics']
   },
   {
     year: 'August 2019 – May 2023',
     title: 'Bachelor of Technology in Information Technology',
     institute: 'NMIMS University',
     desc: 'Built strong foundations in software engineering, data structures, databases, and full stack development. Graduated with 3.47 GPA.',
+    courses: ['OOPs', 'DSA', 'Computer Networks', 'OS', 'Data Warehousing', 'Machine Learning']
   },
 ];
 
@@ -119,6 +121,7 @@ const experience: ExperienceType[] = [
     title: 'AI Engineer',
     institute: 'Cardio AI',
     desc: 'Developing deep learning models for echocardiogram and ECG analysis using PyTorch. Converting models to ONNX and deploying scalable inference endpoints on GCP Vertex AI. Building FastAPI backend modules for agentic clinical decision support workflows.',
+    courses: ['GCP', 'Python', 'PyTorch', 'FastAPI', 'Agentic AI']
   },
 ];
 
