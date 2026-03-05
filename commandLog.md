@@ -23,3 +23,11 @@ npm install react-icons
 
 ## Install motion
 npm install motion
+
+## Re pulish site on github pages:
+cd portfolio
+npm run build
+cd ..
+git add .
+git commit -m "message"
+git push

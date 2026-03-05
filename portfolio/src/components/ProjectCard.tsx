@@ -11,7 +11,8 @@ const ProjectCard = ({project}: Props) => {
     <motion.div variants={fadeUp} className='relative'>
       <figure className='overflow-hidden rounded-xl'>
         <img src={`${import.meta.env.BASE_URL}${project.imgSrc}`}
-        className='rounded-xl transition hover:scale-105 duration-300 w-full'></img>
+        className='rounded-xl transition hover:scale-105 duration-300 w-full'
+        onClick={()=>window.open(project.projectLink,'_blank')}></img>
       </figure>
       <div className='absolute bottom-0 p-2 flex gap-2 '>
         {project.tags.map((tag, index)=>(

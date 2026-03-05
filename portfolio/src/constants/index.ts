@@ -73,28 +73,28 @@ const socialLinks: LinksType[] = [
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: '/project.jpeg',
+    imgSrc: '/project1.png',
     title: 'Full Healthcare System',
-    tags: ['API', 'Development'],
+    tags: ['MERN', 'Google ADK','AI'],
     projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
   },
   {
-    imgSrc: '/project.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
+    imgSrc: '/project2.png',
+    title: 'MCP Trip Planning Agent',
+    tags: ['Next.js', 'MCP'],
+    projectLink: 'https://github.com/harshalchalke31/trip_planner',
   },
   {
-    imgSrc: '/project.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
+    imgSrc: '/project3.png',
+    title: 'Full stack RAG Chatbot',
+    tags: ['MERN', 'RAG'],
+    projectLink: 'https://github.com/harshalchalke31/journAI',
   },
   {
-    imgSrc: '/project.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://harshalchalke31.github.io/fullstack_healthcare_system/#/',
+    imgSrc: '/project4.png',
+    title: 'EchoFrame',
+    tags: ['Research', 'Medical Imaging'],
+    projectLink: 'https://github.com/harshalchalke31/echoframe_capstone',
   },
 ];
 
