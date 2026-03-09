@@ -31,3 +31,5 @@ cd ..
 git add .
 git commit -m "message"
 git push
+
+npm install @emailjs/browser
